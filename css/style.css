@@ -1,0 +1,120 @@
+html,
+body {
+    min-width: 1122px;
+    min-height: 1750px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 60px;
+}
+
+.main-navigation {
+    width: 780px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.user-block {
+    width: 140px;
+    margin-right: auto;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.index-logo {
+    width: 368px;
+    min-height: 204px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 80px;
+}
+
+.features-item {
+    width: 300px;
+}
+
+.index-content {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 35px;
+    padding: 50px 80px;
+}
+
+.index-content-left {
+    width: 380px;
+}
+
+.index-content-right {
+    width: 300px;
+}
+
+.main-footer {
+    display: flex;
+
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-contacts {
+    width: 320px;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.footer-social {
+    width: 180px;
+}
+
+.footer-copyright {
+    width: 160px;
+    margin-left: 220px;
+    margin-right: auto;
+}
+
+
+
+
+
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+body {
+    padding: 3px;
+}
+
+body > * {
+    background: rgba(0, 128, 0, 0.2);
+    box-shadow: 0 0 0 3px green;
+}
+
+body > * > * {
+    background: rgba(255, 45, 82, 0.2);
+    box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+body > * > * > * {
+    background: rgba(234, 255, 45, 0.2);
+    box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
+
+}
