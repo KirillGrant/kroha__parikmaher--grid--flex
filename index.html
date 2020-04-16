@@ -4,41 +4,59 @@
     <meta charset="utf-8">
     <title>Kroha__parikmaher</title>
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
+    <link href="css/header.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
 </head>
 <body>
-<header class="main-header">
-    <nav class="main-navigation">
-        <ul>
-            <li>
-                <a href="#">Информация</a>
+<header class="main__header">
+    <nav class="main__navigation">
+        <ul class="nav__list">
+            <li class="nav__list--link">
+                <a href="#">About</a>
             </li>
-            <li>
-                <a href="#">Новости</a>
+            <li class="nav__list--link">
+                <a href="#">Skills</a>
             </li>
-            <li>
-                <a href="#">Прайс-лист</a>
+            <li class="nav__list--link">
+                <a href="#">Gallery</a>
             </li>
-            <li>
-                <a href="#">Магазин</a>
-            </li>
-            <li>
-                <a href="#">Контакты</a>
+            <li class="nav__list--link">
+                <a href="#">Contacts</a>
             </li>
         </ul>
+        <div class="nav__user-block">
+            <a class="user__login" href="#">Log in</a>
+        </div>
     </nav>
-    <div class="user-block">
-        <a class="login" href="#">Вход</a>
+    <div class="header__slider">
+        <div class="slide slide--1 slide--active">
+            <h3 class="slide__title">Первый заголовок<p>первого слайда</p></h3>
+            <a class="slide__btn" href="#">Перейти на страницу</a>
+        </div>
+        <div class="slide slide--2">
+            <h2 class="slide__title">Второй заголовок<p>второго слайда</p></h2>
+            <a class="slide__btn" href="#">Перейти на страницу</a>
+        </div>
+        <div class="slide slide--3">
+            < class="slide__title">Третий заголовок<p>третьего слайда</p>></h2>
+            <a class="slide__btn" href="#">Перейти на страницу</a>
+        </div>
+        <div class="slider__controls">
+            <em class="s__control s__control--1 s__control--active "></em>
+            <em class="s__control s__control--2"></em>
+            <em class="s__control s__control--3"></em>
+        </div>
+    </div>
     </div>
 </header>
 <main>
-    <div class="index-logo">
-        <img src="img/index-logo.png" width="368" height="204" alt="Kroha__parikmaher">
-    </div>
+
     <section class="features">
         <div class="features-item">
             <b class="features-name">Быстро</b>
-            <p>Я сделаю свою работу быстро! Два часа пролетят незаметно и ты — счастливый обладатель стильной стрижки!</p>
+            <p>Я сделаю свою работу быстро! Два часа пролетят незаметно и ты — счастливый обладатель стильной
+                стрижки!</p>
         </div>
         <div class="features-item">
             <b class="features-name">Круто</b>
@@ -46,7 +64,8 @@
         </div>
         <div class="features-item">
             <b class="features-name">Дорого</b>
-            <p>Я мастера — профессионал своего дела и не могу стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+            <p>Я мастера — профессионал своего дела и не могу стоить дешево. К тому же, разве цена не дает определенный
+                статус?</p>
         </div>
     </section>
     <div class="index-content">
