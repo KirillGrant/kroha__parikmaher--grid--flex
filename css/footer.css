@@ -40,6 +40,9 @@
     font-size: 25px;
     border: 5px black solid;
 }
+.footer__contacts--tel:hover{
+    color: #B22222;
+}
 .footer__social {
     max-width: 250px;
     display: flex;
