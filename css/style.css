@@ -7,6 +7,8 @@ body {
     line-height: 24px;
     font-family: "PT Sans Narrow", "Arial", sans-serif;
     background: white url("../img/") no-repeat center top;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -177,69 +179,3 @@ margin-left: -10px;
     clear: both;
     width: 100%;
 }
-.main-footer {
-    display: flex;
-    margin-top: 65px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    color: #ffffff; /* лучше явно прописать везде для футера */
-    background: #252525 url("img/pattern-black.jpg");
-}
-.footer-contacts {
-    width: 320px;
-    margin-left: auto;
-    margin-right: 60px;
-}
-.footer-contacts a {
-    color: #ffffff;
-}
-.footer-contacts a:hover {
-    text-decoration: none;
-}
-.footer-social {
-    width: 180px;
-    text-align: center;
-}
-.footer-copyright {
-    max-width: 180px;
-    margin-left: 220px;
-    margin-right: auto;
-}
-.footer-social p {
-    margin: 0;
-    margin-bottom: 15px;
-}
-.social-btn {
-    display: inline-block;
-    width: 43px;
-    height: 43px;
-    margin: 0 2px;
-    font-size: 0;
-    vertical-align: top;
-    text-decoration: none;
-    background: #000000 url("img/sprite.png") no-repeat center;
-    transition:
-            background-position 0.5s,
-            background-color 0.5s;
-}
-.social-btn:hover {
-    background-color: #ffffff;
-}
-.footer-copyright p {
-    margin: 0;
-    margin-bottom: 15px;
-
-    text-align: center;
-}
-.footer-copyright .btn {
-    margin-right: 0;
-}
-.footer-copyright .btn:hover {
-    color: #000000;
-
-    background-color: #ffffff;
-}
-
-
-
-
